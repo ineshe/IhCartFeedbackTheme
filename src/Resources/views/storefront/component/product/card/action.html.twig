@@ -1,0 +1,12 @@
+{% sw_extends '@Storefront/storefront/component/product/card/action.html.twig' %}
+
+{% block page_product_detail_product_buy_button %}
+    <div class="btn-buy-wrapper" 
+        data-cart-feedback="true"
+        data-cart-feedback-options='{
+            "feedbackText": "{{ 'cartFeedback.listing.boxAddProductFeedback'|trans|sw_sanitize }}",
+            "defaultText": "{{ 'listing.boxAddProduct'|trans|sw_sanitize }}"
+        }'>
+            {{ parent() }}
+        </div>
+{% endblock %}
