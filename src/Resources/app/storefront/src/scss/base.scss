@@ -1,4 +1,6 @@
+$color-cart-feedback: #d56c20 !default;
+
 .btn-buy.feedback {
-    background-color: red;
-    border-color: red;
+    background-color: $color-cart-feedback;
+    border-color: $color-cart-feedback;
 }

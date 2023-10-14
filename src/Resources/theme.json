@@ -18,5 +18,27 @@
   "asset": [
     "@Storefront",
     "app/storefront/src/assets"
-  ]
+  ],
+  "config": {
+    "fields": {
+      "color-cart-feedback": {
+        "label": {
+          "en-GB": "Cart Feedback Color",
+          "de-DE": "Warenkorb Feedback Farbe"
+        },
+        "type": "color",
+        "value": "#d56c20",
+        "editable": true,
+        "block": "cartFeedback"
+      }
+    },
+    "blocks": {
+      "cartFeedback": {
+        "label": {
+          "en-GB": "Cart Feedback",
+          "de-DE": "Warenkorb Feedback"
+        }
+      }
+    }
+  }  
 }
