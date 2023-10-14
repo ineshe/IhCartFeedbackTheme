@@ -4,7 +4,7 @@ export default class CartFeedback extends Plugin {
 
     init() {
         this.el.addEventListener('click', this.onClick.bind(this))
-        this.button = document.querySelector('.btn-buy')
+        this.button = this.el.querySelector('.btn-buy')
     }
 
     onClick() {
